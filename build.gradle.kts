@@ -9,7 +9,6 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version "1.3.71"
     id("org.jlleitschuh.gradle.ktlint") version "9.2.1"
 
-
     // Apply the application plugin to add support for building a CLI application.
     application
 }
@@ -32,17 +31,15 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
-
-
 }
 
 buildscript {
-  repositories {
-    maven("https://plugins.gradle.org/m2/")
-  }
-  dependencies {
-    classpath("org.jlleitschuh.gradle:ktlint-gradle:9.2.1")
-  }
+    repositories {
+        maven("https://plugins.gradle.org/m2/")
+    }
+    dependencies {
+        classpath("org.jlleitschuh.gradle:ktlint-gradle:9.2.1")
+    }
 }
 
 application {
