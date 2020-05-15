@@ -36,3 +36,7 @@ build
 
 # Mac-specific
 .DS_Store
+
+# Packr-specific
+macjrecache
+packr
