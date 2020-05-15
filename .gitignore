@@ -33,3 +33,6 @@ build
 
 # IntelliJ files
 .idea
+
+# Mac-specific
+.DS_Store
